@@ -1,3 +1,4 @@
+//extending class Error of Nodejs to set a particular format of error response sended to frontend
 class ApiError extends Error{
     constructor(
         statusCode,
